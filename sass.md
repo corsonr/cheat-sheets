@@ -9,7 +9,7 @@ Install on OS X: `sudo gem install sass`
 
 ## CLI Usage
 
-| Code | Description |
+| Action | Code |
 | --- | --- |
 | Version info | `sass -v` |
 | Compile | `sass styles.scss styles.css` |
@@ -37,3 +37,21 @@ Install on OS X: `sudo gem install sass`
 | `invert($color)` | Inverts color |
 | `fade-in($color, .5)` | Sets opacity to given % |
 | `fade-out($color, .5)` | Halves opacity to given % |
+
+## Numbers & Maths
+| SCSS Code | Description |
+| --- | --- |
+| `floor(3.5)` | Round fractions down |
+| `ceil(3.5)` | Round fractions up |
+| `round(3.5)` | Rounds a float |
+| `abs(3.5)` | Absolute value |
+| `min(1, 2, 3)` | Find lowest value |
+| `max(1, 2, 3)` | Find highest value |
+| `percentage(.5)` | Gets corresponding percantge (50%) |
+| `random(30)` |Returns random value between 1 and given value  |
+
+## Comments
+| SCSS Code | Description |
+| --- | --- |
+| `// SCSS comments` | not visible in CSS |
+| `/* CSS comments */` | visible in CSS |
