@@ -19,12 +19,14 @@ Install on OS X: `sudo gem install sass`
 
 ## Variables
 
-`// Variables
+```
+// Variables
 $color: black;
 
 p {
   color: $color;
-}`
+}
+```
 
 ## Color Functions
 
