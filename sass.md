@@ -21,8 +21,21 @@ Auto-Compile for folders without sourcemap: `sass --sourcemap=none --style compr
 
 ## Color Functions
 
+### Create Color Dynamically
 | SCSS Code | Description |
 | --- | --- |
 | `rgb(100, 120, 140)` | Creates color from given values |
 | `rgba(100, 120, 140, .5)` | Creates color from given values |
-| `rgba($color, .5)` | Creates color from given values with given opacity |
+| `rgba($color, .5)` | Creates color from given values with given alpha |
+
+### Modify HSLA Colors
+| SCSS Code | Description |
+| --- | --- |
+| `darken($color, 5%)` | Darkens color by given % |
+| `lighten($color, 5%)` | Lightens color by given % |
+| `grayscale($color)` | Greyscales color |
+| `saturate($color, 5%)` | Saturates color by given % |
+| `desaturate($color, 5%)` | Desaturates color by given % |
+| `invert($color)` | Inverts color |
+| `fade-in($color, .5)` | Sets opacity to given % |
+| `fade-out($color, .5)` | Halves opacity to given % |
