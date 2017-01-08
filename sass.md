@@ -18,14 +18,35 @@ Install on OS X: `sudo gem install sass`
 | Auto-Compile for folders without sourcemap | `sass --sourcemap=none --style compressed --watch [from_folder]:[to_folder]` |
 
 ## Variables
+Reusable color definition
 
 ```
-// Variables
 $color: black;
 
 p {
   color: $color;
 }
+```
+
+## Mixins
+Reusable blocks of definitions. Use `@include` to apply mixins to elements.
+
+```
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+.box { @include border-radius(10px); }
+```
+
+## Import
+Load code from external files. Convention naming: start partials filenames by an underscore.
+
+```
+@import 'reset'; // will import content from _reset.scss
 ```
 
 ## Color Functions
