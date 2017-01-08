@@ -9,15 +9,13 @@ Install on OS X: `sudo gem install sass`
 
 ## CLI Usage
 
-Version info: `sass -v`
-
-Compile: `sass styles.scss styles.css`
-
-Auto-Compile for single files: `sass --watch styles.scss:styles.css`
-
-Auto-Compile for folders: `sass --watch .`
-
-Auto-Compile for folders without sourcemap: `sass --sourcemap=none --style compressed --watch [from_folder]:[to_folder]`
+| Code | Description |
+| --- | --- |
+| Version info | `sass -v` |
+| Compile | `sass styles.scss styles.css` |
+| Auto-Compile for single files | `sass --watch styles.scss:styles.css` |
+| Auto-Compile for folders | `sass --watch .` |
+| Auto-Compile for folders without sourcemap | `sass --sourcemap=none --style compressed --watch [from_folder]:[to_folder]` |
 
 ## Color Functions
 
