@@ -37,3 +37,12 @@ Name a series of commits and combine completed efforts
 | `$ git checkout [branch-name]` | Switches to the specified branch and updates the working directory |
 | `$ git merge [branch]` | Combines the specified branch’s history into the current branch |
 | `$ git branch -d [branch-name]` | Deletes the specified branch |
+
+## Refactor Filenames
+Relocate and remove versioned files
+
+| Command | Description |
+| --- | --- |
+| `$ git rm [file]` | Deletes the file from the working directory and stages the deletion |
+| `$ git rm --cached [file]` | Removes the file from version control but preserves the file locally |
+| `$ git mv [file-original] [file-renamed]` | Changes the file name and prepares it for commit |
