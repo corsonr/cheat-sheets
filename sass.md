@@ -9,7 +9,7 @@ Install on OS X: `sudo gem install sass`
 
 ## CLI Usage
 
-| Action | Code |
+| Action | Command |
 | --- | --- |
 | Version info | `sass -v` |
 | Compile | `sass styles.scss styles.css` |
