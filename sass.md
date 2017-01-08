@@ -17,6 +17,15 @@ Install on OS X: `sudo gem install sass`
 | Auto-Compile for folders | `sass --watch .` |
 | Auto-Compile for folders without sourcemap | `sass --sourcemap=none --style compressed --watch [from_folder]:[to_folder]` |
 
+## Variables
+
+`// Variables
+$color: black;
+
+p {
+  color: $color;
+}`
+
 ## Color Functions
 
 ### Create Color Dynamically
