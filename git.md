@@ -54,3 +54,39 @@ Exclude temporary files and paths
 | --- | --- |
 | `temp-*` | A text file named .gitignore suppresses accidental versioning of files and paths matching the specified paterns |
 | `$ git ls-files --other --ignored --exclude-standard` | Lists all ignored files in this project |
+
+## Save Fragments
+Shelve and restore incomplete changes
+
+| Command | Description |
+| --- | --- |
+| `$ git stash` | Temporarily stores all modified tracked files |
+| `$ git stash pop` | Restores the most recently stashed files |
+| `$ git stash list` | Lists all stashed changesets |
+| `$ git stash drop` | Discards the most recently stashed changeset |
+
+## Review History
+Browse and inspect the evolution of project files
+
+| Command | Description |
+| --- | --- |
+| `$ git log` | Lists version history for the current branch |
+| `$ git log --follow [file]` | Lists version history for a file, including renames |
+| `$ git diff [first-branch]...[second-branch]` | Shows content differences between two branches |
+| `$ git show [commit]` | Outputs metadata and content changes of the specified commit |
+
+## Redo Commits
+Erase mistakes and craf replacement history
+
+| Command | Description |
+| --- | --- |
+| `$ git reset [commit]` | Undoes all commits afer [commit], preserving changes locally |
+| `$ git reset --hard [commit]` | Discards all history and changes back to the specified commit |
+
+## Synchronize Changes
+Register a repository bookmark and exchange version history
+
+| `$ git fetch [bookmark]` | Downloads all history from the repository bookmark |
+| `$ git merge [bookmark]/[branch]` | Combines bookmark’s branch into current local branch |
+| `$ git push [alias] [branch]` | Uploads all local branch commits to GitHub |
+| `$ git pull` | Downloads bookmark history and incorporates changes |
