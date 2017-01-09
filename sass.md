@@ -43,7 +43,7 @@ Reusable blocks of definitions. Use `@include` to apply mixins to elements.
 ```
 
 ## Import
-Load code from external files. Prevent separate compiling with a leading underscore.
+Load code from external files. The underscore lets Sass know that the file is only a partial file and that it should not be generated into a CSS file.
 
 ```scss
 @import 'reset'; // will import content from _reset.scss
@@ -142,6 +142,8 @@ $list: (orange, purple, teal);
 ```
 
 ## Extend/Inheritance
+To share a set of CSS properties from one selector to another
+
 ```scss
 .infobox {
   border: 1px solid #ccc;
@@ -155,9 +157,10 @@ $list: (orange, purple, teal);
 }
 ```
 
-## Abstract
+## Abstracts
 The % prefix creates rules that never get used on their own.
 Theses classes are solely for the purpose of extending.
+
 ```scss
 %info {
   position: absolute;
