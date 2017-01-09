@@ -20,7 +20,7 @@ Install on OS X: `sudo gem install sass`
 ## Variables
 Reusable color definition
 
-```
+```scss
 $color: black;
 
 p {
