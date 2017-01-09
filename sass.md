@@ -133,6 +133,14 @@ $list: (orange, purple, teal);
 }
 ```
 
+```scss
+@for $i from 1 through $total {
+   .ray:nth-child(#{$i}){
+      background: adjust-hue( blue, $i * $step );
+   }
+}
+```
+
 ## Extend/Inheritance
 ```scss
 .infobox {
