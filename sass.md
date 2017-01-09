@@ -31,7 +31,7 @@ p {
 ## Mixins
 Reusable blocks of definitions. Use `@include` to apply mixins to elements.
 
-```
+```scss
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;
@@ -45,7 +45,7 @@ Reusable blocks of definitions. Use `@include` to apply mixins to elements.
 ## Import
 Load code from external files. Convention naming: start partials filenames by an underscore.
 
-```
+```scss
 @import 'reset'; // will import content from _reset.scss
 ```
 
