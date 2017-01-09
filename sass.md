@@ -49,6 +49,33 @@ Load code from external files. Prevent separate compiling with a leading undersc
 @import 'reset'; // will import content from _reset.scss
 ```
 
+## Nesting & Abbreviation
+```scss
+aside {
+  border: {
+    width: 1px;
+    style: solid;
+    color: $color;
+  }
+}
+
+nav {
+  background: none;
+  ul {
+    list-style-type: none;
+    a {
+      color: $color;
+      &:hover, &:focus, &:active { // Skip default space: `a:hover` instead of `a :hover`
+        color: red;
+      }
+    }
+  }
+  body.blog & { // Skip default nesting: `body.blog nav` instead of `nav body.blog`
+    background: green;
+  }
+}
+```
+
 ## Color Functions
 
 ### Create Color Dynamically
@@ -87,3 +114,48 @@ Load code from external files. Prevent separate compiling with a leading undersc
 | --- | --- |
 | `// SCSS comments` | not visible in CSS |
 | `/* CSS comments */` | visible in CSS |
+
+## Conditional Statements
+```scss
+// If/Else
+p {
+  margin-left: if( $i % 2 == 0, 0px, 50px );
+}
+```
+
+## Loops
+```scss
+$list: (orange, purple, teal);
+@each $item in $list {
+  .#{$item} {
+    background: $item;
+  }
+}
+```
+
+## Extend/Inheritance
+```scss
+.infobox {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: $color;
+}
+
+.success {
+  @extend .infobox;
+  border-color: green;
+}
+```
+
+## Abstract
+The % prefix creates rules that never get used on their own.
+Theses classes are solely for the purpose of extending.
+```scss
+%info {
+  position: absolute;
+}
+
+.notice {
+  @extend %info;
+}
+```
