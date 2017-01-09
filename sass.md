@@ -43,7 +43,7 @@ Reusable blocks of definitions. Use `@include` to apply mixins to elements.
 ```
 
 ## Import
-Load code from external files. Convention naming: start partials filenames by an underscore.
+Load code from external files. Prevent separate compiling with a leading underscore.
 
 ```scss
 @import 'reset'; // will import content from _reset.scss
