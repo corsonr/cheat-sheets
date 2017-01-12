@@ -9,6 +9,7 @@ Sources:
 
 Useful resources:
 - http://www.flexboxpatterns.com/home
+- https://philipwalton.github.io/solved-by-flexbox/
 
 ## Properties for the Parent (flex container)
 
