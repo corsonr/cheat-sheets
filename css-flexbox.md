@@ -6,6 +6,7 @@ The Flexbox Layout (Flexible Box) module (currently a W3C Last Call Working Draf
 Sources:
 - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 - http://apps.workflower.fi/css-cheats/?name=flexbox
+- http://www.flexboxpatterns.com/home
 
 ## Properties for the Parent (flex container)
 
