@@ -1,3 +1,9 @@
+# Git Cheat Sheet
+
+Sources:
+- https://www.git-tower.com/blog/git-cheat-sheet/
+- https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
+
 ## CONFIGURE TOOLING
 Configure user information for all local repositories
 
@@ -23,6 +29,7 @@ Review edits and craf a commit transaction
 | `$ git status` | Lists all new or modified files to be commited |
 | `$ git diff` | Shows file differences not yet staged |
 | `$ git add [file]` | Snapshots the file in preparation for versioning |
+| `$ git add .` | Add all curent changes to the next commit |
 | `$ git diff --staged` | Shows file differences between staging and the last file version |
 | `$ git reset [file]` | Unstages the file, but preserve its contents |
 | `$ git commit -m "[descriptive message]"` | Records file snapshots permanently in version history |
@@ -86,6 +93,7 @@ Erase mistakes and craf replacement history
 ## Synchronize Changes
 Register a repository bookmark and exchange version history
 
+| Command | Description |
 | `$ git fetch [bookmark]` | Downloads all history from the repository bookmark |
 | `$ git merge [bookmark]/[branch]` | Combines bookmark’s branch into current local branch |
 | `$ git push [alias] [branch]` | Uploads all local branch commits to GitHub |
