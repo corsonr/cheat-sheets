@@ -3,6 +3,10 @@
 
 The Flexbox Layout (Flexible Box) module (currently a W3C Last Call Working Draft) aims at providing a more efficient way to lay out, align and distribute space among items in a container, even when their size is unknown and/or dynamic (thus the word "flex").
 
+Sources:
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- http://apps.workflower.fi/css-cheats/?name=flexbox
+
 ## Properties for the Parent (flex container)
 
 ### Display
