@@ -101,6 +101,14 @@ To control the order to display elements in a container.
 
 ### flex-grow
 
+This defines the ability for a flex item to grow if necessary. If all items have `flex-grow` set to 1, the remaining space in the container will be distributed equally to all children. If one of the children has a value of 2, the remaining space would take up twice as much space as the others (or it will try to, at least).
+
+```
+.item {
+  flex-grow: <number>; /* default 0 */
+}
+```
+
 ### flex-shrink
 
 ### flex-basis
