@@ -135,7 +135,7 @@ This is the shorthand for `flex-grow`, `flex-shrink` and `flex-basis` combined. 
 
 ```css
 .item {
-  flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+  flex: none | [ <'flex-grow'> <'flex-shrink'> || <'flex-basis'> ]
 }
 ```
 
