@@ -131,4 +131,13 @@ This defines the default size of an element before the remaining space is distri
 
 ### flex
 
+This is the shorthand for `flex-grow`, `flex-shrink` and `flex-basis` combined. The second and third parameters (`flex-shrink` and `flex-basis`) are optional. Default is `0 1 auto`. **It is recommended that you use this shorthand property rather than set the individual properties**. The short hand sets the other values intelligently.
+
+```css
+.item {
+  flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+}
+```
+
+
 ### align-self
