@@ -91,6 +91,14 @@ Aligns a flex container's lines within when there is extra space in the cross-ax
 
 ### order
 
+To control the order to display elements in a container.
+
+```
+.item {
+  order: <integer>;
+}
+```
+
 ### flex-grow
 
 ### flex-shrink
