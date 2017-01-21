@@ -93,7 +93,7 @@ Aligns a flex container's lines within when there is extra space in the cross-ax
 
 To control the order to display elements in a container.
 
-```
+```css
 .item {
   order: <integer>;
 }
@@ -103,7 +103,7 @@ To control the order to display elements in a container.
 
 This defines the ability for a flex item to grow if necessary. If all items have `flex-grow` set to 1, the remaining space in the container will be distributed equally to all children. If one of the children has a value of 2, the remaining space would take up twice as much space as the others (or it will try to, at least).
 
-```
+```css
 .item {
   flex-grow: <number>; /* default 0 */
 }
@@ -113,7 +113,7 @@ This defines the ability for a flex item to grow if necessary. If all items have
 
 This defines the ability for a flex item to shrink if necessary.
 
-```
+```css
 .item {
   flex-shrink: <number>; /* default 1 */
 }
@@ -123,7 +123,7 @@ This defines the ability for a flex item to shrink if necessary.
 
 This defines the default size of an element before the remaining space is distributed. It can be a length (e.g. 20%, 5rem, etc.) or a keyword. The `auto` keyword means "look at my width or height property" (which was temporarily done by the `main-size` keyword until deprecated). The `content` keyword means "size it based on the item's content" - this keyword isn't well supported yet, so it's hard to test and harder to know what its brethren `max-content`, `min-content`, and `fit-content` do.
 
-```
+```css
 .item {
   flex-basis: <length> | auto; /* default auto */
 }
