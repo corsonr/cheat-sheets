@@ -3,8 +3,9 @@ I was trying to find a way to store all the useful stuff I use everyday in one s
 
 Keen to [contribute](CONTRIBUTING.md)?
 
-- [Git](https://github.com/corsonr/cheat-sheets/blob/master/git.md)
-- [SaSS](https://github.com/corsonr/cheat-sheets/blob/master/sass.md)
-- [Flexbox](https://github.com/corsonr/cheat-sheets/blob/master/css-flexbox.md)
+- [Git - Basics](git.md)
+- [Git - pull request workflow](git.md)
+- [CSS: SaSS](sass.md)
+- [CSS: Flexbox](css-flexbox.md)
 
 Crafted with ♥ by [Remi Corson](http://remicorson.com). 
