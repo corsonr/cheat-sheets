@@ -1,4 +1,4 @@
-Here are a few step to create a pull request.
+Here are a few steps to create a pull request.
 
 # 1. Fork a repo
 
