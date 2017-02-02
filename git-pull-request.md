@@ -2,7 +2,7 @@ Here are a few steps to create a pull request.
 
 # 1. Fork a repo
 
-See how to [fork a repo](https://help.github.com/articles/fork-a-repo/).
+First, you'll need to fork the repo. This is not mandatory, though. See how to [fork a repo](https://help.github.com/articles/fork-a-repo/).
 
 # Clone a forked repo locally
 ```
