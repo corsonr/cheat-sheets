@@ -17,6 +17,14 @@ Install on OS X: `sudo gem install sass`
 | Auto-Compile for folders | `sass --watch .` |
 | Auto-Compile for folders without sourcemap | `sass --sourcemap=none --style compressed --watch [from_folder]:[to_folder]` |
 
+## Modes
+| Mode | Description |
+| --- | --- |
+| `nested` | reflects the structure of the CSS styles and the HTML document they’re styling |
+| `expanded` | a more typical human-made CSS style, with each property and rule taking up one line |
+| `compact` | each CSS rule takes up only one line, with every property defined on that line |
+| `compressed` | takes up the minimum amount of space possible |
+
 ## Variables
 Reusable color definition
 
