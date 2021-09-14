@@ -34,6 +34,13 @@ Review edits and craf a commit transaction
 | `$ git reset [file]` | Unstages the file, but preserve its contents |
 | `$ git commit -m "[descriptive message]"` | Records file snapshots permanently in version history |
 
+Create a git patch from uncommitted changes in the current working directory
+
+| Command | Description |
+| --- | --- |
+| `git diff > mypatch.txt` | Creates a file with the diff changes |
+| `git apply mypatch.patch` | Applies the changes |
+
 ## Group Changes
 Name a series of commits and combine completed efforts
 
