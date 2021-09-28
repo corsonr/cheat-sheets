@@ -33,6 +33,7 @@ Review edits and craf a commit transaction
 | `$ git diff --staged` | Shows file differences between staging and the last file version |
 | `$ git reset [file]` | Unstages the file, but preserve its contents |
 | `$ git commit -m "[descriptive message]"` | Records file snapshots permanently in version history |
+| `$ git commit -am "[descriptive message]"` | Snapshot all new files and records file snapshots permanently in version history |
 
 Create a git patch from uncommitted changes in the current working directory
 
