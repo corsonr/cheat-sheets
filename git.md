@@ -39,8 +39,8 @@ Create a git patch from uncommitted changes in the current working directory
 
 | Command | Description |
 | --- | --- |
-| `git diff -p mypatch.txt` | Creates a diff file with the changes |
-| `git apply mypatch.patch` | Applies the changes |
+| `git diff > mypatch.txt` | Creates a diff file with the changes |
+| `git apply mypatch.txt` | Applies the changes |
 
 ## Group Changes
 Name a series of commits and combine completed efforts
