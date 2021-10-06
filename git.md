@@ -40,7 +40,14 @@ Create a git patch from uncommitted changes in the current working directory
 | Command | Description |
 | --- | --- |
 | `git diff > mypatch.diff` | Creates a diff file with the changes |
-| `git apply mypatch.diff --stat ` | Applies the changes |
+| `git apply mypatch.diff --stat` | Applies the changes |
+
+To get a clean commit list use this method instead:
+
+| Command | Description |
+| --- | --- |
+| `git format-patch master --stdout > new-feature.patch` | Creates a diff file with the changes and a commit message |
+| `git am` | Applies the patch |
 
 ## Group Changes
 Name a series of commits and combine completed efforts
