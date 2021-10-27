@@ -1,14 +1,17 @@
-# 1. Check version
+# Install or Update NVM
+`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash`
+
+# Check version
 `node -v || node --version`
 
-# 2. List installed versions of node (via nvm)
+# List installed versions of node (via nvm)
 `nvm ls`
 
-# 3. Install specific version of node
-`nvm install 6.9.2`
+# Install specific version of node
+`nvm install <version>`
 
-# 4. Set default version of node
-`nvm alias default 6.9.2`
+# Set default version of node
+`nvm alias default <version>`
 
-# 5. Switch version of node
-`nvm use 6.9.1`
+# Switch version of node
+`nvm use <version>`
