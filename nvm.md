@@ -10,6 +10,10 @@
 # Install specific version of node
 `nvm install <version>`
 
+# Uninstall specific version of node
+`nvm uninstall <version>`
+(might need to run `nvm deactivate` if trying to uninstall active version of NVM)
+
 # Set default version of node
 `nvm alias default <version>`
 
