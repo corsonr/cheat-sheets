@@ -7,5 +7,6 @@ Keen to [contribute](CONTRIBUTING.md)?
 - [Git - pull request workflow](git.md)
 - [CSS: SaSS](sass.md)
 - [CSS: Flexbox](css-flexbox.md)
+- [NVM](nvm.md)
 
 Crafted with ♥ by [Remi Corson](http://remicorson.com). 
