@@ -40,7 +40,7 @@ Create a git patch from uncommitted changes in the current working directory
 | Command | Description |
 | --- | --- |
 | `git diff > mypatch.diff` | Creates a diff file with the changes |
-| `git apply mypatch.diff --stat` | Applies the changes |
+| `git apply < mypatch.diff --stat` | Applies the changes |
 
 To get a clean commit list use this method instead:
 
