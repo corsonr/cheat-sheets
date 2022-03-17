@@ -60,6 +60,7 @@ Name a series of commits and combine completed efforts
 | `$ git merge [branch]` | Combines the specified branch’s history into the current branch |
 | `$ git branch -m [new-name]` | Renames local branch |
 | `$ git branch -d [branch-name]` | Deletes the specified branch |
+| `$ git fetch origin && git reset --hard origin/master` | Resets local branch to match remote |
 
 ## Refactor Filenames
 Relocate and remove versioned files
