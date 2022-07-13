@@ -8,5 +8,6 @@ Keen to [contribute](CONTRIBUTING.md)?
 - [CSS: SaSS](sass.md)
 - [CSS: Flexbox](css-flexbox.md)
 - [NVM](nvm.md)
+- [REACT](react.md)
 
 Crafted with ♥ by [Remi Corson](http://remicorson.com). 
