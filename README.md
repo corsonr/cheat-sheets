@@ -9,5 +9,6 @@ Keen to [contribute](CONTRIBUTING.md)?
 - [CSS: Flexbox](css-flexbox.md)
 - [NVM](nvm.md)
 - [REACT](REACT.md)
+- [console.log()](console.log.md)
 
 Crafted with ♥ by [Remi Corson](http://remicorson.com). 
