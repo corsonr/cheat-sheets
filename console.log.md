@@ -16,4 +16,4 @@
 | `console.timeLog()` | End the timer and outputs time after last console.time() call |
 | `console.trace( 'Start tracing' )` | Trace functions order |
 | `console.log( '%c Sun is shining', 'color: #B54708; background-color: #FEDF89; font-weight: bold; padding: 5px; border-radius: 4px;' )` | Custom styling |
-
+| `console.clear()` | Clears the console |
