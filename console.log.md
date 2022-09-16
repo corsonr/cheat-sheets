@@ -7,5 +7,5 @@
 | --- | --- |
 | `console.log( 'message' )` | Prints "message" in the console |
 | `console.assert( myVar, 'myVar is false' )` | Prints "myVar is false" if `myVar = false`, doesn't print anything if true |
-
+| `console.table( obj )` | Displays nice formatted table |
 
